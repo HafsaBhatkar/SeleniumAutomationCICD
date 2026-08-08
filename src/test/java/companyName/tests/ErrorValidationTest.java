@@ -30,6 +30,6 @@ public class ErrorValidationTest extends BaseTest {
 		Assert.assertTrue(cartPage.verifyProductInCart(wrongProductName));
 	}
 	
-	//Adding comments to trigger the webhook
+	//Adding comments to trigger the webhook in jenkins
 	
 }
