@@ -25,7 +25,8 @@ import companyName.pageObjects.ProductCatalog;
 
 public class SubmitOrderTest extends BaseTest {
 
-	String productNm = "ZARA COAT 3";
+	// Commenting product name, as it is coming from json file now
+	//String productNm = "ZARA COAT 3";
 
 	@Test(dataProvider = "getData")
 	public void SubmitOrder(HashMap<String, String> input) throws InterruptedException, IOException {

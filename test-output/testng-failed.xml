@@ -4,25 +4,13 @@
   <listeners>
     <listener class-name="companyName.TestComponents.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Error Validation Test(failed)">
-    <classes>
-      <class name="companyName.tests.ErrorValidationTest">
-        <methods>
-          <include name="loginErrorValidation"/>
-          <include name="launchApplication"/>
-          <include name="destroy"/>
-          <include name="productCartErrorValidation"/>
-        </methods>
-      </class> <!-- companyName.tests.ErrorValidationTest -->
-    </classes>
-  </test> <!-- Error Validation Test(failed) -->
   <test thread-count="5" parallel="tests" name="Submit Order Test(failed)">
     <classes>
       <class name="companyName.tests.SubmitOrderTest">
         <methods>
           <include name="orderHistoryValidation"/>
           <include name="launchApplication"/>
-          <include name="SubmitOrder"/>
+          <include name="SubmitOrder" invocation-numbers="0"/>
           <include name="destroy"/>
         </methods>
       </class> <!-- companyName.tests.SubmitOrderTest -->
