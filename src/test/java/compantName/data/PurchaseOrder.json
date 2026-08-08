@@ -1,0 +1,14 @@
+[
+	{
+		"email": "susan1@gmail.com",
+		"password" : "Susan@1234",
+		"productName" : "IPHONE 13 PRO",
+		"country" : "India"
+	},
+	{
+		"email" : "hannah22@gmail.com",
+		"password" : "Hannah@12345",
+		"productName" : "ZARA COAT 3",
+		"country" : "Belgium"
+	}
+]

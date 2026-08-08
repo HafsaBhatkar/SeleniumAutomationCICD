@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<!-- <groups> <run> <include name="Error Handling" /> </run> </groups> -->
+	<listeners>
+		<listener class-name="companyName.TestComponents.Listeners" />
+	</listeners>
+
+	<test name="Error Validation Test">
+		<classes>
+			<class name="companyName.tests.ErrorValidationTest" />
+		</classes>
+
+	</test>
+</suite> 
